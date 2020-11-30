@@ -9,8 +9,9 @@ class MyApp(QtWidgets.QWidget):
 
     def initUI(self):
         button = QtWidgets.QPushButton('Quit', self)
-        button.move(100, 100)
         button.clicked.connect(QtCore.QCoreApplication.instance().quit)
+        button.move(100, 100)
+
         self.setWindowTitle('Hello, world!')
         self.show()
 
