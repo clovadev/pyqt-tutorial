@@ -12,7 +12,7 @@ class MyApp(QtWidgets.QWidget):
         button.clicked.connect(QtCore.QCoreApplication.instance().quit)
         button.move(100, 100)
 
-        self.setWindowTitle('Hello, world!')
+        self.setWindowTitle('Quit Button')
         self.show()
 
 

@@ -8,7 +8,7 @@ class MyApp(QtWidgets.QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle('Hello, world!')
+        self.setWindowTitle('Icon')
         self.setWindowIcon(QtGui.QIcon('../res/web.png'))
         self.show()
 

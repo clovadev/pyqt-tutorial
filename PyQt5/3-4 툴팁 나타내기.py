@@ -16,7 +16,7 @@ class MyApp(QtWidgets.QWidget):
         button.setToolTip('이것은 <b>QPushButton</b>입니다.')
         button.move(100, 100)
 
-        self.setWindowTitle('Hello, world!')
+        self.setWindowTitle('Tooltips')
         self.show()
 
 
